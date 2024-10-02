@@ -1,0 +1,7 @@
+[02-10-2024] 
+Started working on this project. 
+Analyzing through all the frameworks required for this.
+shadcn-ui is really good for the premium looking components.
+aceternity-ui provides a lot of good styles/components.
+nextjs will create routes for all the folders inside the app automatically 
+if it is not required then we can create a route group by wrapping the folder name in (<floder name>)

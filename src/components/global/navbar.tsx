@@ -1,0 +1,26 @@
+import { Link } from 'lucide-react';
+import React from 'react'
+
+type Props = {}
+
+const Navbar = async (props: Props) => {
+    return (
+        <header className="fixed right-0 left-0 top-0 py-4 px-4 bg-black/40 backdrop-blur-lg z-[100] flex items-center border-b-[1px] boder-neutral-900 justify-between">
+            <aside>
+                MyWorkFlow
+            </aside>
+            <nav>
+                <ul>
+                    <li>
+                        <Link href='#'>Test 1</Link>
+                    </li>
+                    <li>
+                        <Link href='#'>Test 2</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    )
+}
+
+export default Navbar;
